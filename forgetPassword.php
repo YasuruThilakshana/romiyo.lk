@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    <title>Romiyo - forget password</title>
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .normal-sign-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .signInbox {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body  class="normal-sign-body">
+      <!-- forget password Box--> 
+<div class="signInbox   " id="signInbox">
+
+
+<h1 class="text-center text-warning "> Forget Password</h1>
+
+
+
+
+<div class="mt-2">
+   <label for="form-label" >Email</label>
+   <input type="email" class="form-control" id="e" value=""/>
+</div>
+
+<div class=" d-none" id="msgDiv2">
+   <div class="alert alert-danger" id="msg2"> </div>
+</div>
+<div class="mt-2">
+    <button class="btn btn-secondary col-12" onclick="forgetpassword();" >Send Email</button>
+</div>
+
+
+
+</div>
+
+      <!-- forget password Box--> 
+
+      <script src="script.js"></script>
+
+   
+</body>
+</html>
